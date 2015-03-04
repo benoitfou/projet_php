@@ -47,10 +47,11 @@ section{
 	text-align: center;
 	border: 4px grey outset;
 	border-radius: 10px;
-	width: 1000;
-	margin-left: 450px;
-	margin-right: 450px;
+	width: 1000px;
+	height: 50%;
+	margin: auto;
 	background-color: #FCFAE1;
+	padding: 4px;
 }
 #presentation{
 	width: 1000;
@@ -61,4 +62,7 @@ section{
 	border-radius: 10px;
 	text-align: left;
 	background-color: #C0C1C1;
+}
+#public{
+	text-align: left;
 }
