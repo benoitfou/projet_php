@@ -20,8 +20,8 @@
 			<ul class="menu">
 				<li id="accueil"><a href="index.php">Accueil</a></li>
 				<li id="formations"><a href="formations.php">Formations</a></li>
-				<li id="compagnie"><a href="#">Compagnie</a></li>
-				<li id="contact"><a href="#">Contact</a></li>
+				<li id="compagnie"><a href="compagnie.php">Compagnie</a></li>
+				<li id="contact"><a href="contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<br>
