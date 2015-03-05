@@ -88,6 +88,8 @@ $bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'B
 					echo '</select>', "\n";
 				?>
 			</div>
+			<br>
+			<br>
 		</section>
 	</body>
 
