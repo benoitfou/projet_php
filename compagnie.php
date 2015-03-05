@@ -34,7 +34,7 @@
 			<div id="presentation">
 				<p>Notre société est composé de deux agents partiels.</p>
 				<br>
-				<p>Les très connus Benfou et MoulinMar</p>
+				<p>Les très connus Foufou et le King !</p>
 			</div>
 			<br>
 		</section>
