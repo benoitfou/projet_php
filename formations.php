@@ -1,3 +1,6 @@
+<?php
+$bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'BDDsurf@39');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -54,13 +57,36 @@
 
 						$selected='';
 					}
-					echo '</selected>',"\n";
+					echo '</select>',"\n";
 				?>
 				<br>
 			</div>
 			<br>
-			<div id="choixforma">
+			<div id="categorie">
 				<p>Catégorie :</p>
+				<br>
+				<?php
+					$tabcategorie = array(
+						'01' => 'Développement',
+						'02' => 'Programmation',
+						'03' => 'HTML-CSS-PHP',
+						'04' => 'Analyse',
+						'05' => 'Base de données');
+
+					$selected = '';
+
+					echo '<select name="categorie">',"n";
+					foreach ($tabcategorie as $numero => $nomcategorie) {
+						if ($nomcategorie == 'Développement')
+						{
+							$selected = ' selected="selected"';
+						}
+						echo "\t",'<option value="', $numero , '"', $selected , '>', $nomcategorie,'</option>',"\n";
+
+						$selected='';
+					}
+					echo '</select>', "\n";
+				?>
 			</div>
 		</section>
 	</body>

@@ -1,3 +1,6 @@
+<?php
+$bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'BDDsurf@39');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
