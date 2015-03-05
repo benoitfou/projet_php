@@ -16,7 +16,7 @@ header{
 }
 body{
 	font-family: calibri;
-	background-color: #F7F2B2;
+	background-image: url('images/plancher.jpg');
 }
 ul{
 	list-style-type: none;
