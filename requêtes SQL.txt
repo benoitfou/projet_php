@@ -1,0 +1,37 @@
+use projet_php
+insert into publics
+values (1,'Jeune -26 ans');
+insert into publics
+values (2,'Salarié');
+insert into publics
+values (3,"Demandeur d'emplois");
+insert into publics
+values (4,'Retraité');
+insert into publics
+values (5,'Autre');
+
+insert into categories
+values (1,'Développement WEB', null);
+insert into categories
+values (2, 'Analyse', null);
+insert into categories
+values (3, 'Programmation', null);
+
+insert into categories
+values (4, 'PHP', 1);
+insert into categories
+values (5, 'HTML/CSS', 1);
+insert into categories
+values (6, 'MySQL', 1);
+insert into categories
+values (7, 'UML', 2);
+insert into categories
+values (8, 'Merise', 2);
+insert into categories
+values (9, 'Python', 3);
+insert into categories
+values (10, 'Linux', 3);
+insert into categories
+values (11, 'Virtual  Basic', 3);
+insert into categories
+values (12, 'C#', 3);
