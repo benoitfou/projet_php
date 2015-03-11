@@ -11,8 +11,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'B
 
 	<body>
 		<header>
-			<img src="images/ecran_logo.png" alt="logo Forma=@Cup" id="logo" />
-			<h1>Form@Cup</h1>
+			<img src="images/logo.png" alt="logo Forma=@Cup" id="logo" />
 			<div id="share">
 
 			</div>
