@@ -18,8 +18,7 @@ catch (Exception $e)
 
 	<body>
 		<header>
-			<img src="images/ecran_logo.png" alt="logo Forma=@Cup" id="logo" />
-			<h1>Form@Cup</h1>
+			<img src="images/logo.png" alt="logo Forma=@Cup" id="logo" />
 			<div id="share">
 
 			</div>
@@ -101,5 +100,6 @@ catch (Exception $e)
 	</body>
 
 	<footer>
+		<p>Form@Cup Copyright - Tous droits réservés © 2014 - Mentions légales</p>
 	</footer>
 </html>

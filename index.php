@@ -45,5 +45,6 @@ $bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'B
 	</body>
 
 	<footer>
+		<p>Form@Cup Copyright - Tous droits réservés © 2014 - Mentions légales</p>
 	</footer>
 </html>

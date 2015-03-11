@@ -69,3 +69,12 @@ section{
 #categorie{
 	text-align: left;
 }
+footer{
+	background-color: #999087;
+	width: 100%;
+	height: 25px;
+	position: fixed;
+	bottom: 0;
+	line-height: 25px;
+	text-align: center;
+}
