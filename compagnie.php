@@ -1,3 +1,13 @@
+<?php
+try
+{
+$bdd = new PDO('mysql:host=localhost;dbname=projet_php;charset=utf8', 'root', 'BDDsurf@39');
+}
+catch (Exception $e)
+{
+        die('Erreur : ' . $e->getMessage());
+}
+?>
 <!DOCTYPE html>
 <html>
 	<head>

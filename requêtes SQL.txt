@@ -18,7 +18,7 @@ insert into categories
 values (3, 'Programmation', null);
 
 insert into categories
-values (4, 'PHP', 1);
+values (4, 'PHP - JavaScript', 1);
 insert into categories
 values (5, 'HTML/CSS', 1);
 insert into categories
@@ -35,3 +35,4 @@ insert into categories
 values (11, 'Virtual  Basic', 3);
 insert into categories
 values (12, 'C#', 3);
+
