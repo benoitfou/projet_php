@@ -24,7 +24,22 @@ catch (Exception $e)
 			</div>
 		</header>
 		<br>
+		<div>
+<?php
+$reponse = $bdd->query('SELECT * FROM publics');
 
+while ($donnees = $reponse->fetch())
+{
+?>
+    <p>
+   <?php echo $donnees['pub_libelle']; ?><br />
+   </p>
+<?php
+}
+$reponse->closeCursor();
+?>
+
+</div>
 		<nav>
 			<ul class="menu">
 				<li id="accueil"><a href="index.php">Accueil</a></li>
