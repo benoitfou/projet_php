@@ -20,7 +20,6 @@ catch (Exception $e)
 		<header>
 			<img src="images/logo.png" alt="logo Forma=@Cup" id="logo" />
 			<div id="share">
-
 			</div>
 		</header>
 		<br>
@@ -42,11 +41,6 @@ catch (Exception $e)
 				<blockquote>Choisissez la formation qui vous convient</blockquote>
 			<br>
 
-
-
-
-
-
 			<div id="public">
 				<p>Public :</p>
 				<br>
@@ -60,15 +54,33 @@ catch (Exception $e)
 }    
 ?>
 </select>
+
+				<?php
+				$reponse = $bdd->query('SELECT * FROM publics');
+
+				while ($donnees = $reponse->fetch())
+				{
+   				$tabpublic = array(
+					'01' => $donnees['pub_libelle']);
+				$selected = '';  ?><br />
+				}
+   				?>
+
+	<?php
+		echo '<select name="formation">',"n";
+		foreach ($tabpublic as $numero => $nomFormation) {
+			if ($nomFormation == 'Salarié')
+			{
+				$selected = ' selected="selected"';
+			}
+			echo "\t",'<option value="', $numero ,'"', $selected ,'>', $nomFormation,'</option>',"\n";
+			$selected='';
+			}
+			echo '</select>',"\n";
+			$reponse->closeCursor();
+	?>
 				<br>
 			</div>
-
-
-
-
-
-
-
 
 			<br>
 			<div id="categorie">
