@@ -32,7 +32,7 @@ values (9, 'Python', 3);
 insert into categories
 values (10, 'Linux', 3);
 insert into categories
-values (11, 'Virtual  Basic', 3);
+values (11, 'Visual  Basic', 3);
 insert into categories
 values (12, 'C#', 3);
 
