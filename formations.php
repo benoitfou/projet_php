@@ -50,36 +50,16 @@ catch (Exception $e)
 			<div id="public">
 				<p>Public :</p>
 				<br>
-
-				<?php
+<select>
+<?php
 	$reponse = $bdd->query('SELECT * FROM publics');
 
 	while ($donnees = $reponse->fetch())
 {
+	print('<option>'.$donnees['pub_libelle'].'</option>');
+}    
 ?>
-    <p>
-   <?php 				$tabpublic = array(
-						'01' => $donnees['pub_libelle']);
-					$selected = '';  ?><br />
-   </p>
-}
-?>
-
-<?php
-					echo '<select name="formation">',"n";
-					foreach ($tabpublic as $numero => $nomFormation) {
-						if ($nomFormation == 'Salarié')
-						{
-							$selected = ' selected="selected"';
-						}
-						echo "\t",'<option value="', $numero ,'"', $selected ,'>', $nomFormation,'</option>',"\n";
-
-						$selected='';
-					}
-					echo '</select>',"\n";
-
-				$reponse->closeCursor();
-				?>
+</select>
 				<br>
 			</div>
 
