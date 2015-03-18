@@ -42,7 +42,7 @@ catch (Exception $e)
 			<br>
 
 			<div id="public">
-				<p>Public :</p>
+				<p><b>Public :</b></p>
 				<br>
 				<select>
 					<?php
@@ -57,7 +57,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<div id="catmere">
-				<p>Catégorie :</p>
+				<p><b>Catégorie :</b></p>
 				<br>
 				<select>
 					<?php
@@ -79,7 +79,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<div id="niveau">
-				<p>Niveau :</p>
+				<p><b>Niveau :</b></p>
 				<br>
 				<select>
 					<?php
