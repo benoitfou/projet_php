@@ -63,17 +63,19 @@ section{
 	text-align: left;
 	background-color: #C0C1C1;
 }
+#divchoix{
+}
 #public{
 	text-align: left;
+	position: absolute;
 }
 #catmere{
 	text-align: left;
-}
-#categorie{
-	text-align: left;
+	position: absolute;
 }
 #niveau{
 	text-align: left;
+	position: absolute;
 }
 footer{
 	background-color: #999087;
