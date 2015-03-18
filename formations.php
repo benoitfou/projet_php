@@ -41,18 +41,31 @@ catch (Exception $e)
 				<br>
 				<blockquote>Choisissez la formation qui vous convient</blockquote>
 			<br>
+
+
+
+
+
+
 			<div id="public">
 				<p>Public :</p>
 				<br>
+
 				<?php
-					$tabpublic = array(
-						'01' => 'Salarié',
-						'02' => 'Demandeur d\'emploi',
-						'03' => 'Jeune -26 ans',
-						'04' => 'Autre');
+	$reponse = $bdd->query('SELECT * FROM publics');
 
-					$selected = '';
+	while ($donnees = $reponse->fetch())
+{
+?>
+    <p>
+   <?php 				$tabpublic = array(
+						'01' => $donnees['pub_libelle']);
+					$selected = '';  ?><br />
+   </p>
+}
+?>
 
+<?php
 					echo '<select name="formation">',"n";
 					foreach ($tabpublic as $numero => $nomFormation) {
 						if ($nomFormation == 'Salarié')
@@ -64,9 +77,19 @@ catch (Exception $e)
 						$selected='';
 					}
 					echo '</select>',"\n";
+
+				$reponse->closeCursor();
 				?>
 				<br>
 			</div>
+
+
+
+
+
+
+
+
 			<br>
 			<div id="categorie">
 				<p>Catégorie :</p>
