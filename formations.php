@@ -36,7 +36,7 @@ catch (Exception $e)
 
 		<section>
 			<br>
-				<h1>Quelle formation voumez-vous suivre ?</h1>
+				<h1>Quelle formation voulez-vous suivre ?</h1>
 				<br>
 				<blockquote>Choisissez la formation qui vous convient</blockquote>
 			<br>
@@ -44,16 +44,30 @@ catch (Exception $e)
 			<div id="public">
 				<p>Public :</p>
 				<br>
-<select>
-<?php
-	$reponse = $bdd->query('SELECT * FROM publics');
-
-	while ($donnees = $reponse->fetch())
-{
-	print('<option>'.$donnees['pub_libelle'].'</option>');
-}    
-?>
-</select>
+				<select>
+					<?php
+						$reponse = $bdd->query('SELECT * FROM publics');
+						while ($donnees = $reponse->fetch())
+						{
+							print('<option>'.$donnees['pub_libelle'].'</option>');
+						}    
+					?>
+				</select>
+			</div>
+			<br>
+			<div id="catmere">
+				<p>Catégorie :</p>
+				<br>
+				<select>
+					<?php
+						$reponse = $bdd->query('SELECT cat_libelle FROM categories WHERE cat_idcatmere IS NULL');
+						while ($donnees = $reponse->fetch())
+						{
+							print('<option>'.$donnees['cat_libelle'].'</option>');
+						}    
+					?>
+				</select>
+			</div>			
 
 		</section>
 	</body>
