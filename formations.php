@@ -61,12 +61,19 @@ catch (Exception $e)
 				<br>
 				<select>
 					<?php
+						$nb = 1;
 						$reponse = $bdd->query('SELECT cat_id, cat_libelle FROM categories WHERE cat_idcatmere IS NULL');
 						while ($donnees = $reponse->fetch())
 						{
-							print('<option>'.$donnees['cat_libelle'].'</option>');
-						}    
+							print('<optgroup label="'.$donnees['cat_libelle'].'">');
+							$reponse2 = $bdd->query('SELECT cat_id, cat_libelle FROM categories WHERE cat_idcatmere ='.$donnees['cat_id']);
+								while ($donnees2 = $reponse2->fetch())
+								{
+									print('<option value="'.$donnees2['cat_libelle'].'">'.$donnees2['cat_libelle'].'</option>');
+								}
+						}  
 					?>
+					</optgroup>
 				</select>
 			</div>
 			<br>
