@@ -66,24 +66,22 @@ section{
 #divchoix{
 }
 #public{
-	text-align: left;
-	float: :left;
+	text-align: center;
+	float: left;
 	margin-left: 10px;
-	width: 150px;
+	width: 32%;
 }
 #catmere{
-	text-align: left;
-	float: :left;
+	text-align: center;
+	float: left;
 	margin-left: 10px;
-	width: 150px;
-
+	width: 32%;
 }
 #niveau{
-	text-align: left;
-	float: :left;
+	text-align: center;
+	float: left;
 	margin-left: 10px;
-	width: 150px;
-
+	width: 32%;
 }
 footer{
 	background-color: #999087;

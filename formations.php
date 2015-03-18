@@ -38,6 +38,8 @@ catch (Exception $e)
 				<br>
 				<blockquote>Choisissez la formation qui vous convient</blockquote>
 			<br>
+			<br>
+			<br>
 			<div id="divchoix">
 			
 				<div id="public">
@@ -53,8 +55,7 @@ catch (Exception $e)
 						?>
 					</select>
 				</div>
-				<br>
-				<br>
+
 				<div id="catmere">
 					<p><b>Catégorie :</b></p>
 					<br>
@@ -75,8 +76,7 @@ catch (Exception $e)
 						</optgroup>
 					</select>
 				</div>
-				<br>
-				<br>
+
 				<div id="niveau">
 					<p><b>Niveau :</b></p>
 					<br>
@@ -92,6 +92,12 @@ catch (Exception $e)
 				</div>
 			<br>
 			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 
 		</section>
 	</body>
