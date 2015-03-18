@@ -95,6 +95,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<br>
+			<input type="submit" value="Envoyer"></input>
 			<br>
 			<br>
 			<br>
