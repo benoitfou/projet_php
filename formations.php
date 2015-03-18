@@ -54,63 +54,6 @@ catch (Exception $e)
 }    
 ?>
 </select>
-
-				<?php
-				$reponse = $bdd->query('SELECT * FROM publics');
-
-				while ($donnees = $reponse->fetch())
-				{
-   				$tabpublic = array(
-					'01' => $donnees['pub_libelle']);
-				$selected = '';  ?><br />
-				}
-   				?>
-
-	<?php
-		echo '<select name="formation">',"n";
-		foreach ($tabpublic as $numero => $nomFormation) {
-			if ($nomFormation == 'Salarié')
-			{
-				$selected = ' selected="selected"';
-			}
-			echo "\t",'<option value="', $numero ,'"', $selected ,'>', $nomFormation,'</option>',"\n";
-			$selected='';
-			}
-			echo '</select>',"\n";
-			$reponse->closeCursor();
-	?>
-				<br>
-			</div>
-
-			<br>
-			<div id="categorie">
-				<p>Catégorie :</p>
-				<br>
-				<?php
-					$tabcategorie = array(
-						'01' => 'Développement',
-						'02' => 'Programmation',
-						'03' => 'HTML-CSS-PHP',
-						'04' => 'Analyse',
-						'05' => 'Base de données');
-
-					$selected = '';
-
-					echo '<select name="categorie">',"n";
-					foreach ($tabcategorie as $numero => $nomcategorie) {
-						if ($nomcategorie == 'Développement')
-						{
-							$selected = ' selected="selected"';
-						}
-						echo "\t",'<option value="', $numero , '"', $selected , '>', $nomcategorie,'</option>',"\n";
-
-						$selected='';
-					}
-					echo '</select>', "\n";
-				?>
-			</div>
-			<br>
-			<br>
 		</section>
 	</body>
 
