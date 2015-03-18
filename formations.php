@@ -55,19 +55,22 @@ catch (Exception $e)
 				</select>
 			</div>
 			<br>
+			<br>
 			<div id="catmere">
 				<p>Catégorie :</p>
 				<br>
 				<select>
 					<?php
-						$reponse = $bdd->query('SELECT cat_libelle FROM categories WHERE cat_idcatmere IS NULL');
+						$reponse = $bdd->query('SELECT cat_id, cat_libelle FROM categories WHERE cat_idcatmere IS NULL');
 						while ($donnees = $reponse->fetch())
 						{
 							print('<option>'.$donnees['cat_libelle'].'</option>');
 						}    
 					?>
 				</select>
-			</div>			
+			</div>
+			<br>
+			</div>
 
 		</section>
 	</body>
