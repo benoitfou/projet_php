@@ -67,12 +67,23 @@ section{
 }
 #public{
 	text-align: left;
+	float: :left;
+	margin-left: 10px;
+	width: 150px;
 }
 #catmere{
 	text-align: left;
+	float: :left;
+	margin-left: 10px;
+	width: 150px;
+
 }
 #niveau{
 	text-align: left;
+	float: :left;
+	margin-left: 10px;
+	width: 150px;
+
 }
 footer{
 	background-color: #999087;
