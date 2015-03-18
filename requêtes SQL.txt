@@ -36,3 +36,11 @@ values (11, 'Virtual  Basic', 3);
 insert into categories
 values (12, 'C#', 3);
 
+insert into niveaux
+values (1,'Débutant');
+insert into niveaux
+values (2,'Intermédiaire');
+insert into niveaux
+values (3,'Expert');
+
+
