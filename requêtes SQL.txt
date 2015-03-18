@@ -32,7 +32,7 @@ values (9, 'Python', 3);
 insert into categories
 values (10, 'Linux', 3);
 insert into categories
-values (11, 'Visual  Basic', 3);
+values (11, 'Virtual  Basic', 3);
 insert into categories
 values (12, 'C#', 3);
 
@@ -43,4 +43,10 @@ values (2,'Intermédiaire');
 insert into niveaux
 values (3,'Expert');
 
-
+insert into categories
+values (13,'Gestion de serveur', null);
+insert into categories
+values (14, 'Linux', 13);
+insert into categories
+values (15, 'Windows', 13);
+ 
