@@ -44,16 +44,15 @@ catch (Exception $e)
 			<div id="public">
 				<p>Public :</p>
 				<br>
-<select>
-<?php
-	$reponse = $bdd->query('SELECT * FROM publics');
-
-	while ($donnees = $reponse->fetch())
-{
-	print('<option>'.$donnees['pub_libelle'].'</option>');
-}    
-?>
-</select>
+				<select>
+					<?php
+						$reponse = $bdd->query('SELECT * FROM publics');
+						while ($donnees = $reponse->fetch())
+						{
+							print('<option>'.$donnees['pub_libelle'].'</option>');
+						}    
+					?>
+				</select>
 
 				<?php
 				$reponse = $bdd->query('SELECT * FROM publics');
