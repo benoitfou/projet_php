@@ -77,6 +77,21 @@ catch (Exception $e)
 				</select>
 			</div>
 			<br>
+			<br>
+			<div id="niveau">
+				<p>Niveau :</p>
+				<br>
+				<select>
+					<?php
+						$reponse = $bdd->query('SELECT * FROM niveaux');
+						while ($donnees = $reponse->fetch())
+						{
+							print('<option>'.$donnees['niv_libelle'].'</option>');
+						}    
+					?>
+				</select>
+			</div>
+			<br>
 			</div>
 
 		</section>
