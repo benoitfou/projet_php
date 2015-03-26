@@ -7,6 +7,10 @@ catch (Exception $e)
 {
         die('Erreur : ' . $e->getMessage());
 }
+
+$catmere = $_POST['catmere'];
+$public = $_POST['public'];
+$niveau = $_POST['niveau'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,9 +40,12 @@ catch (Exception $e)
 
 		<section>
 			<br>
-			<h1>Details</h1>
+			<h1>Details de</h1>
 			<br>
 			<br>
+			<?php 
+			echo($catmere." avec ".$public." dffd s ".$niveau);
+			?>
 			</div>
 			<br>
 		</section>

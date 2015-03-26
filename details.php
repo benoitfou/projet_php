@@ -36,9 +36,12 @@ catch (Exception $e)
 
 		<section>
 			<br>
-			<h1>Details</h1>
+			<h1>Details de</h1>
 			<br>
 			<br>
+			<?php 
+			echo($_POST['catmere']." avec ".$_POST['niveau']." dffd s ".$_POST['public']);
+			?>
 			</div>
 			<br>
 		</section>
