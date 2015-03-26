@@ -40,7 +40,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<br>
-			<div id="divchoix">
+			<form id="divchoix" action="details.php">
 			
 				<div id="public">
 					<p><b>Public :</b></p>
@@ -91,11 +91,11 @@ catch (Exception $e)
 					</select>
 				</div>
 			<br>
-			</div>
 			<br>
 			<br>
 			<br>
-			<input type="submit" value="Envoyer"></input>
+			<input type="submit" value="Envoyer"  />
+			</form>
 			<br>
 			<br>
 			<br>
