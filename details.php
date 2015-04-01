@@ -94,7 +94,32 @@ catch (Exception $e)
 	    <br>
  	    Chap 3
  		<br>
- 	    Avec un prix de 1999€ pour le public : <?php $formPublic = $_POST['public']; echo("$formPublic");?>.
+ 	    Avec un prix de
+ 	    <?php $prix="Autre"; 
+
+ 	    $formPublic = $_POST['public'];
+ 		switch ($formPublic) {
+ 			case 'Jeune -26 ans':
+ 				$prix = 1999;
+ 				break;
+  			case 'Salarié':
+ 				$prix = 2499;
+ 				break;
+  			case 'Demandeur d\'emplois':
+ 				$prix = 2999;
+ 				break;
+ 			case 'Retraité':
+ 				$prix = 3499;
+ 				break;
+ 			
+ 			default:
+ 				$prix = 3999;
+ 				break;
+ 		}
+		echo($prix."€ ");  
+ 	     echo(" pour le public :");  
+ 	     echo(" $formPublic");
+ 	     ?>.
  		<br>
   		Chap 5
  		<br>	
