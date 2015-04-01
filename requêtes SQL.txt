@@ -49,4 +49,22 @@ insert into categories
 values (14, 'Linux', 13);
 insert into categories
 values (15, 'Windows', 13);
- 
+
+insert into chapitres
+values (1, 'I. Les bases de HTML5', 'Ce chapître va vous permettre de créer et d\'organiser vos pages web.');
+insert into chapitres
+values (2, 'II. Les joies de la mise en forme avec CSS', 'Maintenant vous allez voir comment rendre vos pages plus belles et attractives');
+insert into chapitres
+values (3, 'III. Mise en page du site', 'Ensuite vous allez voir comment bien agencer votre site et le rendre agréable pour l\'utilisateur.');
+insert into chapitres
+values (4, 'IV. Fonctionnalités evoluées', 'Enfin vous verrez comment ajouter des médias et interagir avec les internautes.');
+
+insert into chapitres
+values (5, 'I. Les bases en UML', 'Dans ce chapître vous allez voir les bases de l\'UML');
+insert into chapitres
+values (6, 'II. Identifier le contexte et les besoins principaux des utilisateurs', 'Maintenant vous allez devoir analyser l\'architecture de la société');
+insert into chapitres
+values (7, 'III. Préciser les cas d\'utilisation', '');
+insert into chapitres
+values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
+
