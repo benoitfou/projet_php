@@ -34,7 +34,7 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-
+<div id="base"> 
 		<section>
 			<br>
 			<h1>Fiche de contact</h1>
@@ -47,6 +47,7 @@ catch (Exception $e)
 			</div>
 			<br>
 		</section>
+	</div>
 	</body>
 
 	<footer>

@@ -26,6 +26,7 @@ catch (Exception $e)
 		<br>
 
 		<nav>
+
 			<ul class="menu">
 				<li id="accueil"><a href="index.php">Accueil</a></li>
 				<li id="formations"><a href="formations.php">Formations</a></li>
@@ -34,7 +35,7 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-
+<div id="base"> 
 		<section>
 			<br>
 			<h1>Notre société</h1>
@@ -47,6 +48,7 @@ catch (Exception $e)
 			</div>
 			<br>
 		</section>
+	</div>
 	</body>
 
 	<footer>

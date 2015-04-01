@@ -33,7 +33,7 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-
+<div id="base"> 
 		<section>
 			<br>
 			<h1>Bienvenue sur le site de Form@Cup</h1>
@@ -48,6 +48,7 @@ catch (Exception $e)
 			</div>
 			<br>
 		</section>
+	</div>
 	</body>
 
 	<footer>

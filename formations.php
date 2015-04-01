@@ -31,7 +31,7 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-		
+		<div id="base"> 
 		<section>
 			<br>
 				<h1>Quelle formation voulez-vous suivre ?</h1>
@@ -102,7 +102,7 @@ catch (Exception $e)
 			<br>
 
 		</section>
-
+</div>
 	</body>
 
 	<footer>
