@@ -143,13 +143,13 @@ values (5, 'UML présentation', '<h1><center>UML c\'est quoi ?</center></h1>
 			<br>
 			<blockquote><i>Les différents types de diagrammes</i></blockquote>
 			<br>
-			<h3><center>Quelle démarche à suivre</center></h3>
+			<h3><center>1-Quelle démarche à suivre</center></h3>
 			<br>
-			<h3><center>Definir le contexte du futur logiciel</center></h3>	
+			<h3><center>2-Definir le contexte du futur logiciel</center></h3>	
 			<br>
-			<h3><center>Les cas d\'utilisation</center></h3>
+			<h3><center>3-Les cas d\'utilisation</center></h3>
 			<br>
-			<h3><center>Les relations</center></h3>
+			<h3><center>4-Les relations</center></h3>
 			<br>
 			<p>La description textuelle</p>
         	<p>Le diagramme</p>
