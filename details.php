@@ -40,7 +40,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<?php 
-			echo($_POST['catmere']." avec ".$_POST['niveau']." dffd s ".$_POST['public']);
+			var_dump($_POST);
 			?>
 			</div>
 			<br>

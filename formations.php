@@ -31,7 +31,7 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-
+		
 		<section>
 			<br>
 				<h1>Quelle formation voulez-vous suivre ?</h1>
@@ -40,7 +40,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<br>
-			<form id="divchoix" action="details.php">
+			<form id="divchoix" action="details.php" method="post">
 			
 				<div id="public">
 					<p><b>Public :</b></p>
@@ -102,6 +102,7 @@ catch (Exception $e)
 			<br>
 
 		</section>
+
 	</body>
 
 	<footer>
