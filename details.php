@@ -33,19 +33,129 @@ catch (Exception $e)
 			</ul>
 		</nav>
 		<br>
-
+<div id="base"> 
 		<section>
 			<br>
-			<h1>Details de</h1>
+			<h1>Programme de la formation en ???, pour un niveau niveau ???.</h1>
 			<br>
 			<br>
 			<div id="presentation">
+					<br>
+				<h3 id="titleprgr">Le contenu :</h1>
+				        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>	
+ 				        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>	
+ 				        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>	
+
+ 				        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+
 			<?php 
-			var_dump($_POST);
+			
 			?>
 			</div>
 			<br>
 		</section>
+		<div id="prgrmm"> 
+		<h3 id="titleprgr">Le programme :</h1>
+        Chap 1
+        <br>
+        Chap 2
+	    <br>
+ 	    Chap 3
+ 		<br>
+ 	    Chap 4
+ 		<br>
+  		Chap 5
+ 		<br>
+		</div>
+</div>
 	</body>
 
 	<footer>
