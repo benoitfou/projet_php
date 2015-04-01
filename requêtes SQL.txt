@@ -72,25 +72,25 @@ values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
 
 insert into details
 values (1, 'premiers pas', '
-				<h3>1. Comment fait-on pour créer des sites web ?</h3><br>
-				<h3>2. Votre première page web en HTML</h3><br>
-				<h3>3. Créer des liens</h3><br>
-				<h3>4. Les images</h3><br>');
+				1. Comment fait-on pour créer des sites web ?<br>
+				2. Votre première page web en HTML<br>
+				3. Créer des liens<br>
+				4. Les images<br>');
 
 insert into details
 values (2, 'mise en forme', '
-				<h3>1. Mettre en place le CSS</h3><br>
-				<h3>2. Formatage du texte</h3><br>
-				<h3>3. La couleur et le fond</h3><br>
-				<h3>4. Les bordures et les ombres</h3><br>
-				<h3>5. Création d\'apparences dynamiques</h3><br>');
+				1. Mettre en place le CSS<br>
+				2. Formatage du texte<br>
+				3. La couleur et le fond<br>
+				4. Les bordures et les ombres<br>
+				5. Création d\'apparences dynamiques<br>');
 
 insert into details
 values (3, 'Structurer le site', '
-				<h3>1. Structurer sa page</h3><br>
-				<h3>2. Le modèle des boîtes</h3><br>
-				<h3>3. Le positionnement en CSS</h3><br>
-				<h3>4. TP: création pas à pas</h3><br>');
+				1. Structurer sa page<br>
+				2. Le modèle des boîtes<br>
+				3. Le positionnement en CSS<br>
+				4. TP: création pas à pas<br>');
 
 
 *************************************************************************************
