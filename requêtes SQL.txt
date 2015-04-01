@@ -89,3 +89,29 @@ values (2, 'mise en forme', '<center>
 
 
 *************************************************************************************
+
+insert into details
+values (5, 'UML présentation', '<p><center>
+				1. UML, c\’est quoi ?<br>
+				2. Les différents types de diagrammes<br>
+				3. Quelle démarche suivre ?<br>
+			</center></p>');
+
+insert into details
+values (6, 'UML contexte', '<p><center>
+				1. La démarche<br>
+				2. Étape 1 : Définir le contexte du futur logiciel<br>
+				3. Étape 2 : Décomposer le système en parties, dit « package »<br>
+				4. Étape 3 : Les cas d’utilisation<br>
+			</center></p>');
+insert into details
+values (7, 'UML précision', '<p><center>
+				1. Les relations stéréotypées<br>
+				2. Les cas d’utilisation internes<br>
+			</center></p>');
+insert into details
+values (8, 'UML scénario', '<p><center>
+				1. La description textuelle d\’un cas d’utilisation<br>
+				2. Le diagramme d’activité<br>
+				3. UML, un outil de communication avec le client<br>
+			</center></p>');
