@@ -68,3 +68,63 @@ values (7, 'III. Préciser les cas d\'utilisation', '');
 insert into chapitres
 values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
 
+insert into details
+values (1, 'Comment fait-on pour créer des sites web ?', 'Bonjour et bienvenue à toutes et à tous !
+
+Voici donc le premier chapitre de ce livre pour débutants, qui va vous apprendre à créer votre site web !
+
+Nous allons passer un certain temps ensemble, tout dépendra de la vitesse à laquelle vous apprendrez. Si vous lisez ce livre régulièrement et à une bonne vitesse, vous l\'aurez terminé en une à deux semaines. Mais si vous avez besoin d\'un peu plus de temps, ne vous inquiétez pas : le principal est que vous y alliez à votre rythme, de préférence en prenant du bon temps.
+
+Je vous propose de commencer par la question la plus simple mais aussi la plus importante : comment fonctionnent les sites web ?
+
+Il s\'agit de langages informatiques qui permettent de créer des sites web. Tous les sites web sont basés sur ces langages, ils sont incontournables et universels aujourd\'hui. Ils sont à la base même du Web. Le langage HTML a été inventé par un certain Tim Berners-Lee en 1991…
+
+Les langages HTML et CSS sont à la base du fonctionnement de tous les sites web. Quand vous consultez un site avec votre navigateur, il faut savoir que, en coulisses, des rouages s\'activent pour permettre au site web de s\'afficher. L\'ordinateur se base sur ce qu\'on lui a expliqué en HTML et CSS pour savoir ce qu\'il doit afficher, comme le montre la figure suivante.
+
+HTML et CSS sont deux « langues » qu\'il faut savoir parler pour créer des sites web. C\'est le navigateur web qui fera la traduction entre ces langages informatiques et ce que vous verrez s\'afficher à l\'écran.
+Vous vous demandez sûrement pourquoi il faut connaître deux langages pour créer des sites web ? Je vous réponds sans plus tarder !
+
+Pour créer un site web, on doit donner des instructions à l\'ordinateur. Il ne suffit pas simplement de taper le texte qui devra figurer dans le site (comme on le ferait dans un traitement de texte Word, par exemple), il faut aussi indiquer où placer ce texte, insérer des images, faire des liens entre les pages, etc.
+Les rôles de HTML et CSS
+
+Pour expliquer à l\'ordinateur ce que vous voulez faire, il va falloir utiliser un langage qu\'il comprend. Et c\'est là que les choses se corsent, parce qu\'il va falloir apprendre deux langages !
+
+    HTML (HyperText Markup Language) : il a fait son apparition dès 1991 lors du lancement du Web. Son rôle est de gérer et organiser le contenu. C\'est donc en HTML que vous écrirez ce qui doit être affiché sur la page : du texte, des liens, des images… Vous direz par exemple : « Ceci est mon titre, ceci est mon menu, voici le texte principal de la page, voici une image à afficher, etc. ».
+
+    CSS (Cascading Style Sheets, aussi appelées Feuilles de style) : le rôle du CSS est de gérer l\'apparence de la page web (agencement, positionnement, décoration, couleurs, taille du texte…). Ce langage est venu compléter le HTML en 1996.
+
+Vous pouvez très bien créer un site web uniquement en HTML, mais celui-ci ne sera pas très beau : l\'information apparaîtra « brute ». C\'est pour cela que le langage CSS vient toujours le compléter.
+
+Le HTML définit le contenu (comme vous pouvez le voir, c\'est brut de décoffrage !). Le CSS permet, lui, d\'arranger le contenu et de définir la présentation : couleurs, image de fond, marges, taille du texte…
+
+Comme vous vous en doutez, le CSS a besoin d\'une page HTML pour fonctionner. C\'est pour cela que nous allons d\'abord apprendre les bases du HTML avant de nous occuper de la décoration en CSS.
+Vos premières pages ne seront donc pas les plus esthétiques, mais qu\'importe ! Cela ne durera pas longtemps.
+
+Il existe de nombreux logiciels dédiés à la création de sites web. Mais, je vous rassure, vous n\'aurez pas à débourser un seul centime. Pourquoi aller chercher un logiciel payant et compliqué, alors que vous avez déjà tout ce qu\'il faut chez vous ?
+
+Sous Windows
+
+Il existe une grande quantité d\'éditeurs de texte, je ne pourrai pas vous les présenter tous. Néanmoins, je vous invite à vous pencher sur Notepad++, l\'un des plus utilisés parmi ceux disponibles pour Windows. Ce logiciel est simple, en français et gratuit.
+
+Je vous conseille de faire la manipulation suivante : allez dans le menu Langage > H > HTML. Cela permettra au logiciel de savoir que l\'on va taper du HTML.
+Lorsque vous utiliserez le logiciel, il colorera votre code, ce qui vous permettra de vous repérer plus facilement.
+
+Pourquoi le navigateur est important
+
+Le navigateur est le programme qui nous permet de voir les sites web. Comme je vous l\'ai expliqué plus tôt, le travail du navigateur est de lire le code HTML et CSS pour afficher un résultat visuel à l\'écran. Si votre code CSS dit « Les titres sont en rouge », alors le navigateur affichera les titres en rouge. Le rôle du navigateur est donc essentiel !
+
+On ne dirait pas, mais un navigateur est un programme extrêmement complexe. En effet, comprendre le code HTML et CSS n\'est pas une mince affaire. Le principal problème, vous vous en rendrez vite compte, c\'est que les différents navigateurs n\'affichent pas le même site exactement de la même façon ! Il faudra vous y faire et prendre l\'habitude de vérifier régulièrement que votre site fonctionne correctement sur la plupart des navigateurs.
+
+En résumé
+
+    Le Web a été inventé par Tim Berners-Lee au début des années 1990.
+
+    Pour créer des sites web, on utilise deux langages informatiques :
+
+        HTML : permet d\'écrire et organiser le contenu de la page (paragraphes, titres…) ;
+
+        CSS : permet de mettre en forme la page (couleur, taille…).
+
+	Le navigateur web est un programme qui permet d\'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu\'il doit afficher.
+
+    Dans ce cours, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « éditeur de texte » (Notepad++).')
