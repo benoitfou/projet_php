@@ -39,6 +39,7 @@ catch (Exception $e)
 			<h1>Details de</h1>
 			<br>
 			<br>
+			<div id="presentation">
 			<?php 
 			var_dump($_POST);
 			?>
