@@ -43,6 +43,17 @@ catch (Exception $e)
 					<br>
 				<h3 id="titleprgr">Le contenu :</h3>
         <br>
+
+        <?php
+			$reponse = $bdd->query('SELECT chap_titre,det_contenu FROM chapitres INNER JOIN contenir ON cont_idchapitre=chap_id INNER JOIN details ON cont_iddetail=det_id where chap_id<5 AND det_id=1');
+				while ($donnees = $reponse->fetch())
+				{
+					print('<h3>'.$donnees['chap_titre'].'<br>'.'</h3>');
+					print($donnees['det_contenu'].'<br>');
+
+				}    
+		?>
+
  		<br>
  	    Avec un prix de
  	    <?php $prix="Autre"; 
@@ -77,7 +88,14 @@ catch (Exception $e)
 		<h3 id="titleprgr">Le programme :</h3>
 		<br>
 		<br>
-		Ici la liste compléte des gros chapitres.
+        <?php
+			$reponse = $bdd->query('SELECT chap_titre,chap_contenu FROM chapitres where chap_id<5');
+				while ($donnees = $reponse->fetch())
+				{
+					print('<h3>'.$donnees['chap_titre'].'<br>'.'</h3>');
+					print($donnees['chap_contenu'].'<br>');
+				}    
+		?>
 		</div>
 </div>
 	</body>
