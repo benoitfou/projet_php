@@ -92,6 +92,14 @@ values (3, 'Structurer le site', '
 				3. Le positionnement en CSS<br>
 				4. TP: création pas à pas<br>');
 
+insert into details
+values (4, 'fonctionnalités', '<p>
+				1. Les tableaux<br>
+				2. Les formulaires<br>
+				3. La vidéo et l\'audio<br>
+				4. Mise en page adaptive avec les Media Queries<br>
+				5. Aller plus loin</p><br>');
+
 
 *************************************************************************************
 
