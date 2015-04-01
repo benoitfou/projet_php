@@ -43,17 +43,22 @@ catch (Exception $e)
 					<br>
 				<h3 id="titleprgr">Le contenu :</h3>
         <br>
-
         <?php
-			$reponse = $bdd->query('SELECT chap_titre,det_contenu FROM chapitres INNER JOIN contenir ON cont_idchapitre=chap_id INNER JOIN details ON cont_iddetail=det_id where chap_id<5 AND det_id=1');
+        if ($formCatm='HTML/CSS')
+        {
+			$reponse = $bdd->query('SELECT chap_titre,chap_id,det_contenu FROM chapitres INNER JOIN details where chap_id<5 AND det_id<5');
 				while ($donnees = $reponse->fetch())
 				{
-					print('<h3>'.$donnees['chap_titre'].'<br>'.'</h3>');
-					print($donnees['det_contenu'].'<br>');
-
+					print('<h1>'.$donnees['chap_titre'].'<br>'.'</h1>');
+					if ($donnees['chap_id']==1)
+					{
+					print($donnees['det_contenu']);
+					}
+					
 				}    
+				
+		}
 		?>
-
  		<br>
  	    Avec un prix de
  	    <?php $prix="Autre"; 

@@ -51,6 +51,7 @@ catch (Exception $e)
 							while ($donnees = $reponse->fetch())
 							{
 								print('<option>'.$donnees['pub_libelle'].'</option>');
+								$pubid = $donnees['pub_id'];
 							}    
 						?>
 					</select>
@@ -71,7 +72,7 @@ catch (Exception $e)
 									{
 										print('<option value="'.$donnees2['cat_libelle'].'">'.$donnees2['cat_libelle'].'</option>');
 									}
-							}  
+							} 
 						?>
 						</optgroup>
 					</select>
