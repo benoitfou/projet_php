@@ -69,151 +69,21 @@ insert into chapitres
 values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
 
 insert into details
-values (1, 'Comment fait-on pour créer des sites web ?', 'Bonjour et bienvenue à toutes et à tous !
-
-Voici donc le premier chapitre de ce livre pour débutants, qui va vous apprendre à créer votre site web !
-
-Nous allons passer un certain temps ensemble, tout dépendra de la vitesse à laquelle vous apprendrez. Si vous lisez ce livre régulièrement et à une bonne vitesse, vous l\'aurez terminé en une à deux semaines. Mais si vous avez besoin d\'un peu plus de temps, ne vous inquiétez pas : le principal est que vous y alliez à votre rythme, de préférence en prenant du bon temps.
-
-Je vous propose de commencer par la question la plus simple mais aussi la plus importante : comment fonctionnent les sites web ?
-
-Il s\'agit de langages informatiques qui permettent de créer des sites web. Tous les sites web sont basés sur ces langages, ils sont incontournables et universels aujourd\'hui. Ils sont à la base même du Web. Le langage HTML a été inventé par un certain Tim Berners-Lee en 1991…
-
-Les langages HTML et CSS sont à la base du fonctionnement de tous les sites web. Quand vous consultez un site avec votre navigateur, il faut savoir que, en coulisses, des rouages s\'activent pour permettre au site web de s\'afficher. L\'ordinateur se base sur ce qu\'on lui a expliqué en HTML et CSS pour savoir ce qu\'il doit afficher, comme le montre la figure suivante.
-
-HTML et CSS sont deux « langues » qu\'il faut savoir parler pour créer des sites web. C\'est le navigateur web qui fera la traduction entre ces langages informatiques et ce que vous verrez s\'afficher à l\'écran.
-Vous vous demandez sûrement pourquoi il faut connaître deux langages pour créer des sites web ? Je vous réponds sans plus tarder !
-
-Pour créer un site web, on doit donner des instructions à l\'ordinateur. Il ne suffit pas simplement de taper le texte qui devra figurer dans le site (comme on le ferait dans un traitement de texte Word, par exemple), il faut aussi indiquer où placer ce texte, insérer des images, faire des liens entre les pages, etc.
-Les rôles de HTML et CSS
-
-Pour expliquer à l\'ordinateur ce que vous voulez faire, il va falloir utiliser un langage qu\'il comprend. Et c\'est là que les choses se corsent, parce qu\'il va falloir apprendre deux langages !
-
-    HTML (HyperText Markup Language) : il a fait son apparition dès 1991 lors du lancement du Web. Son rôle est de gérer et organiser le contenu. C\'est donc en HTML que vous écrirez ce qui doit être affiché sur la page : du texte, des liens, des images… Vous direz par exemple : « Ceci est mon titre, ceci est mon menu, voici le texte principal de la page, voici une image à afficher, etc. ».
-
-    CSS (Cascading Style Sheets, aussi appelées Feuilles de style) : le rôle du CSS est de gérer l\'apparence de la page web (agencement, positionnement, décoration, couleurs, taille du texte…). Ce langage est venu compléter le HTML en 1996.
-
-Vous pouvez très bien créer un site web uniquement en HTML, mais celui-ci ne sera pas très beau : l\'information apparaîtra « brute ». C\'est pour cela que le langage CSS vient toujours le compléter.
-
-Le HTML définit le contenu (comme vous pouvez le voir, c\'est brut de décoffrage !). Le CSS permet, lui, d\'arranger le contenu et de définir la présentation : couleurs, image de fond, marges, taille du texte…
-
-Comme vous vous en doutez, le CSS a besoin d\'une page HTML pour fonctionner. C\'est pour cela que nous allons d\'abord apprendre les bases du HTML avant de nous occuper de la décoration en CSS.
-Vos premières pages ne seront donc pas les plus esthétiques, mais qu\'importe ! Cela ne durera pas longtemps.
-
-Il existe de nombreux logiciels dédiés à la création de sites web. Mais, je vous rassure, vous n\'aurez pas à débourser un seul centime. Pourquoi aller chercher un logiciel payant et compliqué, alors que vous avez déjà tout ce qu\'il faut chez vous ?
-
-Sous Windows
-
-Il existe une grande quantité d\'éditeurs de texte, je ne pourrai pas vous les présenter tous. Néanmoins, je vous invite à vous pencher sur Notepad++, l\'un des plus utilisés parmi ceux disponibles pour Windows. Ce logiciel est simple, en français et gratuit.
-
-Je vous conseille de faire la manipulation suivante : allez dans le menu Langage > H > HTML. Cela permettra au logiciel de savoir que l\'on va taper du HTML.
-Lorsque vous utiliserez le logiciel, il colorera votre code, ce qui vous permettra de vous repérer plus facilement.
-
-Pourquoi le navigateur est important
-
-Le navigateur est le programme qui nous permet de voir les sites web. Comme je vous l\'ai expliqué plus tôt, le travail du navigateur est de lire le code HTML et CSS pour afficher un résultat visuel à l\'écran. Si votre code CSS dit « Les titres sont en rouge », alors le navigateur affichera les titres en rouge. Le rôle du navigateur est donc essentiel !
-
-On ne dirait pas, mais un navigateur est un programme extrêmement complexe. En effet, comprendre le code HTML et CSS n\'est pas une mince affaire. Le principal problème, vous vous en rendrez vite compte, c\'est que les différents navigateurs n\'affichent pas le même site exactement de la même façon ! Il faudra vous y faire et prendre l\'habitude de vérifier régulièrement que votre site fonctionne correctement sur la plupart des navigateurs.
-
-En résumé
-
-    Le Web a été inventé par Tim Berners-Lee au début des années 1990.
-
-    Pour créer des sites web, on utilise deux langages informatiques :
-
-        HTML : permet d\'écrire et organiser le contenu de la page (paragraphes, titres…) ;
-
-        CSS : permet de mettre en forme la page (couleur, taille…).
-
-	Le navigateur web est un programme qui permet d\'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu\'il doit afficher.
-
-    Dans ce cours, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « éditeur de texte » (Notepad++).');
-
-insert into details
-values (2, 'Votre première page wen en HTML', 'Ça y est, vous avez installé tous les logiciels ? Vous devriez maintenant avoir un éditeur de texte pour créer votre site (comme Notepad++) et plusieurs navigateurs pour le tester (Mozilla Firefox, Google Chrome, Internet Explorer…).
-
-Dans ce chapitre, nous allons commencer à pratiquer ! Nous allons découvrir les bases du langage HTML et enregistrer notre toute première page web !
-Alors oui, bien sûr, ne vous attendez pas encore à réaliser une page web exceptionnelle dès ce second chapitre, mais patience… cela viendra !
-
-Allez, mettons-nous en situation ! Comme je vous l\'ai dit, nous allons créer notre site dans un éditeur de texte. Vous avez dû en installer un suite à mes conseils dans le premier chapitre : qu\'il s\'appelle Notepad++, PSpad, jEdit, vim, TextWrangler… peu importe. Ces logiciels ont un but très simple : vous permettre d\'écrire du texte !
-
-Dans la suite de ce cours, je travaillerai avec Notepad++.
-
-On va faire un petit essai. Je vous invite à écrire ce qui vous passe par la tête.
-
-Maintenant, enregistrons ce fichier. Pour cela, c\'est très simple : comme dans tous les programmes, vous avez un menu Fichier > Enregistrer. Une boîte de dialogue vous demande où enregistrer le fichier et sous quel nom. Enregistrez-le où vous voulez. Donnez au fichier le nom que vous voulez, en terminant par .html, par exemple test.html.
-
-Ouvrez maintenant l\'explorateur de fichiers dans le dossier où vous avez enregistré votre page. Vous y verrez le fichier que vous venez de créer.
-
-L\'icône qui représente le fichier dépend de votre navigateur web par défaut.
-
-Faites simplement un double-clic sur ce fichier et… votre navigateur s\'ouvre et, comme à la figure suivante, affiche le texte que vous avez écrit.
-
-Le texte s\'affiche sur la même ligne alors qu\'on avait demandé à l\'écrire sur deux lignes différentes. Que se passe-t-il ?
-
-En fait, pour créer une page web il ne suffit pas de taper simplement du texte comme on vient de le faire. En plus de ce texte, il faut aussi écrire ce qu\'on appelle des balises, qui vont donner des instructions à l\'ordinateur comme « aller à la ligne », « afficher une image », etc.
-
-Bon, tout cela était trop facile. Évidemment, il a fallu que ces satanés informaticiens s\'en mêlent et compliquent les choses. Il ne suffit pas d\'écrire « simplement » du texte dans l\'éditeur, il faut aussi donner des instructions à l\'ordinateur. En HTML, on utilise pour cela des balises.
-Les balises
-
-Les pages HTML sont remplies de ce qu\'on appelle des balises. Celles-ci sont invisibles à l\'écran pour vos visiteurs, mais elles permettent à l\'ordinateur de comprendre ce qu\'il doit afficher.
-Les balises se repèrent facilement. Elles sont entourées de « chevrons », c\'est-à-dire des symboles < et >, comme ceci : <balise>
-
-À quoi est-ce qu\'elles servent ? Elles indiquent la nature du texte qu\'elles encadrent. Elles veulent dire par exemple : « Ceci est le titre de la page », « Ceci est une image », « Ceci est un paragraphe de texte », etc.
-
-On distingue deux types de balises : les balises en paires et les balises orphelines.
-Les balises en paires
-
-Elles s\'ouvrent, contiennent du texte, et se ferment plus loin.
-
-On distingue une balise ouvrante (<titre>) et une balise fermante (</titre>) qui indique que le titre se termine. Cela signifie pour l\'ordinateur que tout ce qui n\'est pas entre ces deux balises… n\'est pas un titre.
-
-Les balises orphelines
-
-Ce sont des balises qui servent le plus souvent à insérer un élément à un endroit précis (par exemple une image). Il n\'est pas nécessaire de délimiter le début et la fin de l\'image, on veut juste dire à l\'ordinateur « Insère une image ici »
-
-Les attributs
-
-Les attributs sont un peu les options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L\'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur.
-
-À quoi cela sert-il ? Prenons la balise <image /> que nous venons de voir. Seule, elle ne sert pas à grand chose. On pourrait rajouter un attribut qui indique le nom de l\'image à afficher.
-
-L\'ordinateur comprend alors qu\'il doit afficher l\'image contenue dans le fichier photo.jpg.
-
-Dans le cas d\'une balise fonctionnant « par paire », on ne met les attributs que dans la balise ouvrante et pas dans la balise fermante.
-
-Le doctype
-
-La toute première ligne s\'appelle le doctype. Elle est indispensable car c\'est elle qui indique qu\'il s\'agit bien d\'une page web HTML.
-Ce n\'est pas vraiment une balise comme les autres (elle commence par un point d\'exclamation), vous pouvez considérer que c\'est un peu l\'exception qui confirme la règle.
-
-La balise </html>
-
-C\'est la balise principale du code. Elle englobe tout le contenu de votre page. Comme vous pouvez le voir, la balise fermante </html> se trouve tout à la fin du code !
-L\'en-tête <head> et le corps <body>
-
-Une page web est constituée de deux parties :
-
-    L\'en-tête <head> : cette section donne quelques informations générales sur la page comme son titre, l\'encodage (pour la gestion des caractères spéciaux), etc. Cette section est généralement assez courte. Les informations que contient l\'en-tête ne sont pas affichées sur la page, ce sont simplement des informations générales à destination de l\'ordinateur. Elles sont cependant très importantes !
-
-    Le corps <body> : c\'est là que se trouve la partie principale de la page. Tout ce que nous écrirons ici sera affiché à l\'écran. C\'est à l\'intérieur du corps que nous écrirons la majeure partie de notre code.
-
-Pour le moment, le corps est vide (nous y reviendrons plus loin). Intéressons-nous par contre aux deux balises contenues dans l\'en-tête…
-L\'encodage (charset)
-
-Cette balise indique l\'encodage utilisé dans votre fichier .html.
-
-Sans rentrer dans les détails, car cela pourrait vite devenir compliqué, l\'encodage indique la façon dont le fichier est enregistré. C\'est lui qui détermine comment les caractères spéciaux vont s\'afficher (accents, idéogrammes chinois et japonais, caractères arabes, etc.).
-
-Il y a plusieurs techniques d\'encodage portant des noms bizarres et utilisées en fonction des langues : ISO-8859-1, OEM 775, Windows-1253… Une seule cependant devrait être utilisée aujourd\'hui autant que possible : UTF-8. Cette méthode d\'encodage permet d\'afficher sans aucun problème pratiquement tous les symboles de toutes les langues de notre planète ! C\'est pour cela que j\'ai indiqué utf-8 dans cette balise.
-
-Il faut aussi que votre fichier soit bien enregistré en UTF-8. C\'est le cas le plus souvent sous Linux par défaut mais, sous Windows, il faut généralement le dire au logiciel.
-
-Le titre principal de la page
-
-C\'est le titre de votre page, probablement l\'élément le plus important ! Toute page doit avoir un titre qui décrit ce qu\'elle contient.
-Il est conseillé de garder le titre assez court (moins de 100 caractères en général).
-
-Le titre ne s\'affiche pas dans votre page mais en haut de celle-ci (souvent dans l\'onglet du navigateur). Enregistrez votre page web et ouvrez-la dans votre navigateur. Vous verrez que le titre s\'affiche dans l\'onglet.
-
-');
+values (1, 'Création de sites internet', '<h1><center>Comment fait-on pour créer des sites web ?</center></h1>
+			<br>
+			<blockquote><i>Bonjour, ce cours est destiné aux débutants. Nous commencerons donc par le plus basique.</i></blockquote>
+			<br>
+			<h3><center>Le fonctionnement des sites web</center></h3>
+			<br>
+			<h3><center>HTML et CSS : deux langages pour créer un site web</center></h3>
+			<br>
+				<li>Les rôles de HTML et CSS</li>
+				<li>Les différentes versions de HTML et CSS</li>			
+			<br>
+			<h3><center>L\'éditeur de texte</center></h3>
+				<li>Sous Windows</li>
+				<li>Sous Mac OS X</li>
+				<li>Sous Linux</li>
+			<br>
+			<h3><center>Les navigateurs</center></h3>
+			<p>Comprendre les différences entre navigateurs</p>');
