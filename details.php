@@ -105,13 +105,26 @@ catch (Exception $e)
 		<h3 id="titleprgr">Le programme :</h3>
 		<br>
 		<br>
+
         <?php
+         if ($formCatm=='HTML/CSS')
+        {
 			$reponse = $bdd->query('SELECT chap_titre,chap_contenu FROM chapitres where chap_id<5');
 				while ($donnees = $reponse->fetch())
 				{
 					print('<h3>'.$donnees['chap_titre'].'<br>'.'</h3>');
 					print($donnees['chap_contenu'].'<br>');
-				}    
+				} 
+		}   
+         if ($formCatm=='UML')
+        {
+			$reponse = $bdd->query('SELECT chap_titre,chap_contenu FROM chapitres where chap_id>4');
+				while ($donnees = $reponse->fetch())
+				{
+					print('<h3>'.$donnees['chap_titre'].'<br>'.'</h3>');
+					print($donnees['chap_contenu'].'<br>');
+				} 
+		}   
 		?>
 		</div>
 </div>
