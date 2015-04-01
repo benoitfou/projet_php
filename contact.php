@@ -43,7 +43,7 @@ catch (Exception $e)
 			<div id="presentation">
 				<p>Voicis nos coordonnées pour nous contacter.</p>
 				<br>
-				<p>blblbbll@boblo.fr ou Tel : 05 06 04 08 06</p>
+				<p>ben&marius@ubuntu.com ou Tel : 05 06 04 08 06</p>
 			</div>
 			<br>
 		</section>
