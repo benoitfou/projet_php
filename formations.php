@@ -40,12 +40,12 @@ catch (Exception $e)
 			<br>
 			<br>
 			<br>
-			<form id="divchoix" action="details.php" method="post">
+			<form id="divchoix" action="details.php" method="POST">
 			
 				<div id="public">
 					<p><b>Public :</b></p>
 					<br>
-					<select name="public[]">
+					<select name="public">
 						<?php
 							$reponse = $bdd->query('SELECT * FROM publics');
 							while ($donnees = $reponse->fetch())
@@ -59,7 +59,7 @@ catch (Exception $e)
 				<div id="catmere">
 					<p><b>Catégorie :</b></p>
 					<br>
-					<select name="catmere[]">
+					<select name="catmere">
 						<?php
 							$nb = 1;
 							$reponse = $bdd->query('SELECT cat_id, cat_libelle FROM categories WHERE cat_idcatmere IS NULL');
@@ -80,7 +80,7 @@ catch (Exception $e)
 				<div id="niveau">
 					<p><b>Niveau :</b></p>
 					<br>
-					<select name="niveau[]">
+					<select name="niveau">
 						<?php
 							$reponse = $bdd->query('SELECT * FROM niveaux');
 							while ($donnees = $reponse->fetch())

@@ -36,7 +36,7 @@ catch (Exception $e)
 <div id="base"> 
 		<section>
 			<br>
-			<h1>Programme de la formation en ???, pour un niveau niveau ???.</h1>
+			<h1>Programme de la formation en <?php $formCatm = $_POST['catmere']; echo("$formCatm");?>, pour un niveau niveau <?php $formNiveau = $_POST['niveau']; echo("$formNiveau");?>.</h1>
 			<br>
 			<br>
 			<div id="presentation">
@@ -94,7 +94,7 @@ catch (Exception $e)
 	    <br>
  	    Chap 3
  		<br>
- 	    Chap 4
+ 	    Avec un prix de 1999€ pour le public : <?php $formPublic = $_POST['public']; echo("$formPublic");?>.
  		<br>
   		Chap 5
  		<br>	
