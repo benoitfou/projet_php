@@ -77,13 +77,15 @@ values (1, 'Création de sites internet', '<h1><center>Comment fait-on pour créer
 			<br>
 			<h3><center>HTML et CSS : deux langages pour créer un site web</center></h3>
 			<br>
-				<li>Les rôles de HTML et CSS</li>
-				<li>Les différentes versions de HTML et CSS</li>			
+				Les rôles de HTML et CSS<br>
+				Les différentes versions de HTML et CSS<br>		
 			<br>
-			<h3><center>L\'éditeur de texte</center></h3>
-				<li>Sous Windows</li>
-				<li>Sous Mac OS X</li>
-				<li>Sous Linux</li>
+			<h3><center>L'éditeur de texte</center></h3>
+				Sous Windows<br>
+				Sous Mac OS X<br>
+				Sous Linux<br>
 			<br>
 			<h3><center>Les navigateurs</center></h3>
-			<p>Comprendre les différences entre navigateurs</p>');
+			<br>
+			<p>Comprendre les différences entre navigateurs</p>
+			<br>');
