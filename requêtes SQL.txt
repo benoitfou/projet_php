@@ -68,6 +68,8 @@ values (7, 'III. Préciser les cas d\'utilisation', '');
 insert into chapitres
 values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
 
+*************************************************************************************
+
 insert into details
 values (1, 'premiers pas', '<p><center>
 				1. Comment fait-on pour créer des sites web ?<br>
@@ -76,20 +78,14 @@ values (1, 'premiers pas', '<p><center>
 				4. Les images<br>
 			</center></p>');
 
-
 insert into details
-values (5, 'UML présentation', '<h1><center>UML c\'est quoi ?</center></h1>
-			<br>
-			<blockquote><i>Les différents types de diagrammes</i></blockquote>
-			<br>
-			<h3><center>1-Quelle démarche à suivre</center></h3>
-			<br>
-			<h3><center>2-Definir le contexte du futur logiciel</center></h3>	
-			<br>
-			<h3><center>3-Les cas d\'utilisation</center></h3>
-			<br>
-			<h3><center>4-Les relations</center></h3>
-			<br>
-			<p>La description textuelle</p>
-        	<p>Le diagramme</p>
-			<br>');
+values (2, 'mise en forme', '<center>
+				<h3>1. Mettre en place le CSS</h3><br>
+				<h3>2. Formatage du texte</h3><br>
+				<h3>3. La couleur et le fond</h3><br>
+				<h3>4. Les bordures et les ombres</h3><br>
+				<h3>5. Création d\'apparences dynamiques</h3><br>
+			</center>');
+
+
+*************************************************************************************
