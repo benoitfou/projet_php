@@ -49,9 +49,11 @@ catch (Exception $e)
 			$reponse = $bdd->query('SELECT chap_titre,chap_id FROM chapitres where chap_id<5 ');
 					while ($donnees = $reponse->fetch())
 					{
+						print('<h1>'.$donnees['chap_titre'].'<br></h1>');
 						$reponse2 = $bdd->query('SELECT det_contenu FROM details where det_id='.$donnees['chap_id']);
 							while ($donnees2 = $reponse2->fetch())
 							{
+								print($donnees2['det_contenu'].'<br>');
 							}
 					} 
 		}
