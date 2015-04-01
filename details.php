@@ -44,19 +44,16 @@ catch (Exception $e)
 				<h3 id="titleprgr">Le contenu :</h3>
         <br>
         <?php
-        if ($formCatm='HTML/CSS')
+        if ($formCatm=='HTML/CSS')
         {
-			$reponse = $bdd->query('SELECT chap_titre,chap_id,det_contenu FROM chapitres INNER JOIN details where chap_id<5 AND det_id<5');
-				while ($donnees = $reponse->fetch())
-				{
-					print('<h1>'.$donnees['chap_titre'].'<br>'.'</h1>');
-					if ($donnees['chap_id']==1)
+			$reponse = $bdd->query('SELECT chap_titre,chap_id FROM chapitres where chap_id<5 ');
+					while ($donnees = $reponse->fetch())
 					{
-					print($donnees['det_contenu']);
-					}
-					
-				}    
-				
+						$reponse2 = $bdd->query('SELECT det_contenu FROM details where det_id='.$donnees['chap_id']);
+							while ($donnees2 = $reponse2->fetch())
+							{
+							}
+					} 
 		}
 		?>
  		<br>
