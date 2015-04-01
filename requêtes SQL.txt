@@ -127,4 +127,93 @@ En résumé
 
 	Le navigateur web est un programme qui permet d\'afficher des sites web. Il lit les langages HTML et CSS pour savoir ce qu\'il doit afficher.
 
-    Dans ce cours, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « éditeur de texte » (Notepad++).')
+    Dans ce cours, nous allons apprendre à utiliser les langages HTML et CSS. Nous travaillerons dans un programme appelé « éditeur de texte » (Notepad++).');
+
+insert into details
+values (2, 'Votre première page wen en HTML', 'Ça y est, vous avez installé tous les logiciels ? Vous devriez maintenant avoir un éditeur de texte pour créer votre site (comme Notepad++) et plusieurs navigateurs pour le tester (Mozilla Firefox, Google Chrome, Internet Explorer…).
+
+Dans ce chapitre, nous allons commencer à pratiquer ! Nous allons découvrir les bases du langage HTML et enregistrer notre toute première page web !
+Alors oui, bien sûr, ne vous attendez pas encore à réaliser une page web exceptionnelle dès ce second chapitre, mais patience… cela viendra !
+
+Allez, mettons-nous en situation ! Comme je vous l\'ai dit, nous allons créer notre site dans un éditeur de texte. Vous avez dû en installer un suite à mes conseils dans le premier chapitre : qu\'il s\'appelle Notepad++, PSpad, jEdit, vim, TextWrangler… peu importe. Ces logiciels ont un but très simple : vous permettre d\'écrire du texte !
+
+Dans la suite de ce cours, je travaillerai avec Notepad++.
+
+On va faire un petit essai. Je vous invite à écrire ce qui vous passe par la tête.
+
+Maintenant, enregistrons ce fichier. Pour cela, c\'est très simple : comme dans tous les programmes, vous avez un menu Fichier > Enregistrer. Une boîte de dialogue vous demande où enregistrer le fichier et sous quel nom. Enregistrez-le où vous voulez. Donnez au fichier le nom que vous voulez, en terminant par .html, par exemple test.html.
+
+Ouvrez maintenant l\'explorateur de fichiers dans le dossier où vous avez enregistré votre page. Vous y verrez le fichier que vous venez de créer.
+
+L\'icône qui représente le fichier dépend de votre navigateur web par défaut.
+
+Faites simplement un double-clic sur ce fichier et… votre navigateur s\'ouvre et, comme à la figure suivante, affiche le texte que vous avez écrit.
+
+Le texte s\'affiche sur la même ligne alors qu\'on avait demandé à l\'écrire sur deux lignes différentes. Que se passe-t-il ?
+
+En fait, pour créer une page web il ne suffit pas de taper simplement du texte comme on vient de le faire. En plus de ce texte, il faut aussi écrire ce qu\'on appelle des balises, qui vont donner des instructions à l\'ordinateur comme « aller à la ligne », « afficher une image », etc.
+
+Bon, tout cela était trop facile. Évidemment, il a fallu que ces satanés informaticiens s\'en mêlent et compliquent les choses. Il ne suffit pas d\'écrire « simplement » du texte dans l\'éditeur, il faut aussi donner des instructions à l\'ordinateur. En HTML, on utilise pour cela des balises.
+Les balises
+
+Les pages HTML sont remplies de ce qu\'on appelle des balises. Celles-ci sont invisibles à l\'écran pour vos visiteurs, mais elles permettent à l\'ordinateur de comprendre ce qu\'il doit afficher.
+Les balises se repèrent facilement. Elles sont entourées de « chevrons », c\'est-à-dire des symboles < et >, comme ceci : <balise>
+
+À quoi est-ce qu\'elles servent ? Elles indiquent la nature du texte qu\'elles encadrent. Elles veulent dire par exemple : « Ceci est le titre de la page », « Ceci est une image », « Ceci est un paragraphe de texte », etc.
+
+On distingue deux types de balises : les balises en paires et les balises orphelines.
+Les balises en paires
+
+Elles s\'ouvrent, contiennent du texte, et se ferment plus loin.
+
+On distingue une balise ouvrante (<titre>) et une balise fermante (</titre>) qui indique que le titre se termine. Cela signifie pour l\'ordinateur que tout ce qui n\'est pas entre ces deux balises… n\'est pas un titre.
+
+Les balises orphelines
+
+Ce sont des balises qui servent le plus souvent à insérer un élément à un endroit précis (par exemple une image). Il n\'est pas nécessaire de délimiter le début et la fin de l\'image, on veut juste dire à l\'ordinateur « Insère une image ici »
+
+Les attributs
+
+Les attributs sont un peu les options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L\'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur.
+
+À quoi cela sert-il ? Prenons la balise <image /> que nous venons de voir. Seule, elle ne sert pas à grand chose. On pourrait rajouter un attribut qui indique le nom de l\'image à afficher.
+
+L\'ordinateur comprend alors qu\'il doit afficher l\'image contenue dans le fichier photo.jpg.
+
+Dans le cas d\'une balise fonctionnant « par paire », on ne met les attributs que dans la balise ouvrante et pas dans la balise fermante.
+
+Le doctype
+
+La toute première ligne s\'appelle le doctype. Elle est indispensable car c\'est elle qui indique qu\'il s\'agit bien d\'une page web HTML.
+Ce n\'est pas vraiment une balise comme les autres (elle commence par un point d\'exclamation), vous pouvez considérer que c\'est un peu l\'exception qui confirme la règle.
+
+La balise </html>
+
+C\'est la balise principale du code. Elle englobe tout le contenu de votre page. Comme vous pouvez le voir, la balise fermante </html> se trouve tout à la fin du code !
+L\'en-tête <head> et le corps <body>
+
+Une page web est constituée de deux parties :
+
+    L\'en-tête <head> : cette section donne quelques informations générales sur la page comme son titre, l\'encodage (pour la gestion des caractères spéciaux), etc. Cette section est généralement assez courte. Les informations que contient l\'en-tête ne sont pas affichées sur la page, ce sont simplement des informations générales à destination de l\'ordinateur. Elles sont cependant très importantes !
+
+    Le corps <body> : c\'est là que se trouve la partie principale de la page. Tout ce que nous écrirons ici sera affiché à l\'écran. C\'est à l\'intérieur du corps que nous écrirons la majeure partie de notre code.
+
+Pour le moment, le corps est vide (nous y reviendrons plus loin). Intéressons-nous par contre aux deux balises contenues dans l\'en-tête…
+L\'encodage (charset)
+
+Cette balise indique l\'encodage utilisé dans votre fichier .html.
+
+Sans rentrer dans les détails, car cela pourrait vite devenir compliqué, l\'encodage indique la façon dont le fichier est enregistré. C\'est lui qui détermine comment les caractères spéciaux vont s\'afficher (accents, idéogrammes chinois et japonais, caractères arabes, etc.).
+
+Il y a plusieurs techniques d\'encodage portant des noms bizarres et utilisées en fonction des langues : ISO-8859-1, OEM 775, Windows-1253… Une seule cependant devrait être utilisée aujourd\'hui autant que possible : UTF-8. Cette méthode d\'encodage permet d\'afficher sans aucun problème pratiquement tous les symboles de toutes les langues de notre planète ! C\'est pour cela que j\'ai indiqué utf-8 dans cette balise.
+
+Il faut aussi que votre fichier soit bien enregistré en UTF-8. C\'est le cas le plus souvent sous Linux par défaut mais, sous Windows, il faut généralement le dire au logiciel.
+
+Le titre principal de la page
+
+C\'est le titre de votre page, probablement l\'élément le plus important ! Toute page doit avoir un titre qui décrit ce qu\'elle contient.
+Il est conseillé de garder le titre assez court (moins de 100 caractères en général).
+
+Le titre ne s\'affiche pas dans votre page mais en haut de celle-ci (souvent dans l\'onglet du navigateur). Enregistrez votre page web et ouvrez-la dans votre navigateur. Vous verrez que le titre s\'affiche dans l\'onglet.
+
+');
