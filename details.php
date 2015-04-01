@@ -41,7 +41,7 @@ catch (Exception $e)
 			<br>
 			<div id="presentation">
 					<br>
-				<h3 id="titleprgr">Le contenu :</h3>
+				<h3 id="titleprgr">Le contenu :</h3> 
         <br>
         <?php
         if ($formCatm=='HTML/CSS')
