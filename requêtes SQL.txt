@@ -69,73 +69,12 @@ insert into chapitres
 values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
 
 insert into details
-values (1, 'Création de sites internet', '<h1><center>Comment fait-on pour créer des sites web ?</center></h1>
-			<br>
-			<blockquote><i>Bonjour, ce cours est destiné aux débutants. Nous commencerons donc par le plus basique.</i></blockquote>
-			<br>
-			<h3><center>Le fonctionnement des sites web</center></h3>
-			<br>
-			<h3><center>HTML et CSS : deux langages pour créer un site web</center></h3>
-			<br>
-				Les rôles de HTML et CSS<br>
-				Les différentes versions de HTML et CSS<br>		
-			<br>
-			<h3><center>L\'éditeur de texte</center></h3>
-				Sous Windows<br>
-				Sous Mac OS X<br>
-				Sous Linux<br>
-			<br>
-			<h3><center>Les navigateurs</center></h3>
-			<br>
-			<p>Comprendre les différences entre navigateurs</p>
-			<br>');
-
-insert into details
-values (2, 'Première page web', '<h1><center>Votre première page web en HTML</center></h1>
-			<br>
-			<h3><center>Créer une page web avec l\'éditeur</center></h3>
-			<br>
-			<h3><center>Les balises et leurs attributs</center></h3>
-			<br>
-				Les balises<br>
-				Les balises en paires<br>
-				Les balises orphelines<br>
-				Les attributs<br>
-			<br>
-			<h3><center>Structure de base d\'une page HTML5</center></h3>
-			<br>
-				Le doctype<br>
-				La balise \'</html>\'<br>
-				L\'en-tête \'<head>\' et le corps \'<body>\'<br>
-				L\'encodage (charset)<br>
-				Le titre principal de la page<br>
-			<br>
-			<h3><center>Les commentaires</center></h3>
-			<br>
-				Insérer un commentaire<br>
-				Tout le monde peut voir vos commentaires… et tout votre code HTML !<br>');
-
-
-
-insert into details
-values (3, 'Mise en page', '<h1><center>Organiser son texte</center></h1>
-			<br>
-			<blockquote><i>Les paragraphes</i></blockquote>
-			<br>
-			<h3><center>Sauter une ligne</center></h3>
-			<br>
-			<h3><center>Les titres</center></h3>
-			<br>
-				La mise en valeur<br>
-				Marquer le texte<br>		
-			<br>
-			<h3><center>N\'oubliez pas : HTML pour le fond, CSS pour la forme</center></h3>
-			<br>
-			<h3><center>Les listes</center></h3>
-			<br>
-			<p>Liste ordonnée</p>
-        	<p>Liste non ordonnée</p>
-			<br>');
+values (1, 'premiers pas', '<p><center>
+				1. Comment fait-on pour créer des sites web ?<br>
+				2. Votre première page web en HTML<br>
+				3. Créer des liens<br>
+				4. Les images<br>
+			</center></p>');
 
 
 insert into details
