@@ -41,7 +41,7 @@ catch (Exception $e)
 			<br>
 			<br>
 			<div id="presentation">
-				<p>Notre société est composé de deux agents partiels qui travaillent nuit et jours pour mener un therme à leur projet de PHP.</p>
+				<p>Notre société est composée de deux agents partiels qui travaillent nuits et jours pour mener un terme à leur projet de PHP .</p>
 				<br>
 				<p>Les très connus Foufou et le King !</p>
 			</div>
