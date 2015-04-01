@@ -80,7 +80,7 @@ values (1, 'Création de sites internet', '<h1><center>Comment fait-on pour créer
 				Les rôles de HTML et CSS<br>
 				Les différentes versions de HTML et CSS<br>		
 			<br>
-			<h3><center>L'éditeur de texte</center></h3>
+			<h3><center>L\'éditeur de texte</center></h3>
 				Sous Windows<br>
 				Sous Mac OS X<br>
 				Sous Linux<br>
@@ -88,4 +88,28 @@ values (1, 'Création de sites internet', '<h1><center>Comment fait-on pour créer
 			<h3><center>Les navigateurs</center></h3>
 			<br>
 			<p>Comprendre les différences entre navigateurs</p>
+			<br>');
+
+
+
+
+
+insert into details
+values (3, 'Mise en page', '<h1><center>Organiser son texte</center></h1>
+			<br>
+			<blockquote><i>Les paragraphes</i></blockquote>
+			<br>
+			<h3><center>Sauter une ligne</center></h3>
+			<br>
+			<h3><center>Les titres</center></h3>
+			<br>
+				La mise en valeur<br>
+				Marquer le texte<br>		
+			<br>
+			<h3><center>N\'oubliez pas : HTML pour le fond, CSS pour la forme</center></h3>
+			<br>
+			<h3><center>Les listes</center></h3>
+			<br>
+			<p>Liste ordonnée</p>
+        	<p>Liste non ordonnée</p>
 			<br>');
