@@ -41,58 +41,8 @@ catch (Exception $e)
 			<br>
 			<div id="presentation">
 					<br>
-				<h3 id="titleprgr">Le contenu :</h1>
-				        Chap 1
+				<h3 id="titleprgr">Le contenu :</h3>
         <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>	
- 				        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
  		<br>
  	    Avec un prix de
  	    <?php $prix="Autre"; 
@@ -109,7 +59,7 @@ catch (Exception $e)
  				$prix = 2999;
  				break;
  			case 'Retraité':
- 				$prix = 3499;
+ 				$prix = 2499;
  				break;
  			
  			default:
@@ -120,70 +70,19 @@ catch (Exception $e)
  	     echo(" pour le public :");  
  	     echo(" $formPublic");
  	     ?>.
- 		<br>
-  		Chap 5
- 		<br>	
- 				        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>	
-
- 				        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-
-			<?php 
-			
-			?>
 			</div>
 			<br>
 		</section>
 		<div id="prgrmm"> 
-		<h3 id="titleprgr">Le programme :</h1>
-        Chap 1
-        <br>
-        Chap 2
-	    <br>
- 	    Chap 3
- 		<br>
- 	    Chap 4
- 		<br>
-  		Chap 5
- 		<br>
+		<h3 id="titleprgr">Le programme :</h3>
+		<br>
+		<br>
+		Ici la liste compléte des gros chapitres.
 		</div>
 </div>
 	</body>
 
 	<footer>
-		<p>Form@Cup Copyright - Tous droits réservés © 2014 - Mentions légales</p>
+		<p>Form@Cup Copyright - Tous droits réservés © 2015 - Mentions légales</p>
 	</footer>
 </html>

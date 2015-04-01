@@ -52,6 +52,6 @@ catch (Exception $e)
 	</body>
 
 	<footer>
-		<p>Form@Cup Copyright - Tous droits réservés © 2014 - Mentions légales</p>
+		<p>Form@Cup Copyright - Tous droits réservés © 2015 - Mentions légales</p>
 	</footer>
 </html>
