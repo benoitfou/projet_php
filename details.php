@@ -39,7 +39,7 @@ catch (Exception $e)
 			<h1>Programme de la formation en <?php $formCatm = $_POST['catmere']; echo("$formCatm");?>, pour un niveau niveau <?php $formNiveau = $_POST['niveau']; echo("$formNiveau");?>.</h1>
 			<br>
 			<br>
-			<div id="presentation">
+			<div id="presentation2">
 					<br>
 				<h3 id="titleprgr">Le contenu :</h3> 
         <br>
@@ -100,6 +100,36 @@ catch (Exception $e)
  	     ?>.
 			</div>
 			<br>
+			<div id="prerequis">
+<h3 id="titleprgr">Les prérequis :</h3> 
+<br>
+        <?php
+         if ($formNiveau=='Débutant')
+        {
+			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=1');
+				while ($donnees = $reponse->fetch())
+				{
+ 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> aucuns prérequis ne ce sont necessaires. ');
+				} 
+		}  
+         if ($formNiveau=='Intermédiaire')
+        {
+			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=2');
+				while ($donnees = $reponse->fetch())
+				{
+ 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> aucuns prérequis ne ce sont necessaires. ');
+				} 
+		}  
+         if ($formNiveau=='Expert')
+        {
+			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=3');
+				while ($donnees = $reponse->fetch())
+				{
+ 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> aucuns prérequis ne ce sont necessaires. ');
+				} 
+		}  
+	?>
+			</div>
 		</section>
 		<div id="prgrmm"> 
 		<h3 id="titleprgr">Le programme :</h3>

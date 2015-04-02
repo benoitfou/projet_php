@@ -128,3 +128,4 @@ values (8, 'UML scénario', '<p>
 				2. Le diagramme d’activité<br>
 				3. UML, un outil de communication avec le client<br>
 			</p>');
+-------------------------------------------------------------------------------
