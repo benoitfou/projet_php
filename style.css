@@ -67,6 +67,17 @@ section{
 	text-align: left;
 	background-color: #C0C1C1;
 }
+.presentation{
+	width: 60%;
+	position: relative;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	padding: 1%;
+	border: 2px black ridge;
+	border-radius: 10px;
+	text-align: left;
+	background-color: #C0C1C1;
+}
 #divchoix{
 }
 #public{
@@ -115,27 +126,4 @@ footer{
 	margin: auto;
 	padding-left: 25%;
 	padding-right: 25%;
-}
-#prerequis{
-	width: 30%;
-	float: right;
-	margin-right: 5%;
-	margin-bottom: 3%;
-	margin-top: -2%;
-	padding: 1%;
-	border: 2px black ridge;
-	border-radius: 10px;
-	text-align: left;
-	background-color: #C0C1C1;
-}
-#presentation2{
-	width: 50%;
-	float: left;
-	margin-left: 5%;
-	margin-bottom: 3%;
-	padding: 1%;
-	border: 2px black ridge;
-	border-radius: 10px;
-	text-align: left;
-	background-color: #C0C1C1;
 }
