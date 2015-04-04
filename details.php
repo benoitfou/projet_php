@@ -14,6 +14,38 @@ catch (Exception $e)
 		<meta charset="utf-8" />
 		<title>Form@Cup</title>
 		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript">
+			function remplir()
+			{
+				document.getElementById('nom').value='Lemonnier';
+				document.getElementById('prenom').value='Marius';
+				document.getElementById('courriel').value='supercast@hotmail.fr';
+			}
+			function verifier()
+			{
+				if (document.getElementById('nom').value=='')
+				{
+					alert('Veuillez renseigner un nom');
+					nom.style.borderColor='red';
+					nom.focus();
+					return false;
+				}
+				if (document.getElementById('prenom').value=='')
+				{
+					alert('Veuillez renseigner un prénom');
+					prenom.style.borderColor='red';
+					prenom.focus();
+					return false;
+				}
+				if (document.getElementById('courriel').value=='')
+				{
+					alert('Veuillez renseigner une adresse mail');
+					courriel.style.borderColor='red';
+					courriel.focus();
+					return false;
+				}
+			}
+		</script>
 	</head>
 
 	<body>
