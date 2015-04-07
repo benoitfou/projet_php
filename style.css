@@ -67,6 +67,10 @@ section{
 	text-align: left;
 	background-color: #C0C1C1;
 }
+#divchoix{
+	border: none;
+	width: 100%;
+}
 #public{
 	text-align: center;
 	float: left;
@@ -84,6 +88,17 @@ section{
 	float: left;
 	margin-left: 10px;
 	width: 32%;
+}
+#formulaire{
+	width: 60%;
+	position: relative;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	padding: 1%;
+	border: 2px black ridge;
+	border-radius: 10px;
+	text-align: left;
+	background-color: #C0C1C1;
 }
 footer{
 	background-color: #999087;
@@ -142,13 +157,4 @@ textarea{
 }
 button{
 	margin-left: .5em;
-}
-footer{
-	background-color: #999087;
-	width: 100%;
-	height: 25px;
-	position: fixed;
-	bottom: 0;
-	line-height: 25px;
-	text-align: center;
 }
