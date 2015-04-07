@@ -77,7 +77,6 @@ catch (Exception $e)
 						</optgroup>
 					</select>
 				</div>
-
 				<div id="niveau">
 					<p><b>Niveau :</b></p>
 					<br>
