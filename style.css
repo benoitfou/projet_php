@@ -67,7 +67,6 @@ section{
 	text-align: left;
 	background-color: #C0C1C1;
 }
-<<<<<<< HEAD
 .presentation{
 	width: 60%;
 	position: relative;
@@ -78,11 +77,10 @@ section{
 	border-radius: 10px;
 	text-align: left;
 	background-color: #C0C1C1;
-=======
+}
 #divchoix{
 	border: none;
 	width: 100%;
->>>>>>> origin/master
 }
 #public{
 	text-align: center;
