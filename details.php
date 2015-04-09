@@ -85,18 +85,18 @@ catch (Exception $e)
 		}  
          if ($formNiveau=='Intermédiaire')
         {
-			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=2');
+			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=1');
 				while ($donnees = $reponse->fetch())
 				{
- 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> aucuns prérequis ne ce sont necessaires. ');
+ 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> les prérequis sont : <br>  -Avoir déja entendu parler de '.$formCatm.'<br> -Connaitre la forme de la syntaxe à utiliser (tables,variables,ou balises)');
 				} 
 		}  
          if ($formNiveau=='Expert')
         {
-			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=3');
+			$reponse = $bdd->query('SELECT pre_libelle FROM prerequis where pre_id=1');
 				while ($donnees = $reponse->fetch())
 				{
- 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> aucuns prérequis ne ce sont necessaires. ');
+ 			print(' Pour le niveau <b>'.$formNiveau.' </b> de la formation <b> '.$formCatm.' </b> les prérequis sont : <br>  -Connaître les bases de '.$formCatm.'<br> -Avoir suivis au moins une année d\'expertise dans le domaine <br> -Être motivé !');
 				} 
 		}  
 	?>

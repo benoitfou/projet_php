@@ -96,7 +96,7 @@ catch (Exception $e)
 					}
 				?>
 
-			<form action="" method="post" onsubmit="return verifier()">
+			<form id="formcontact"action="" method="post" onsubmit="return verifier()">
 				<div>
 					<label for="civilite">Civilité :</label>
 					<input type="radio" name="civi" value="Mr"/> Monsieur
