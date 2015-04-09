@@ -1,0 +1,131 @@
+use projet_php
+insert into publics
+values (1,'Jeune -26 ans');
+insert into publics
+values (2,'Salarié');
+insert into publics
+values (3,"Demandeur d'emplois");
+insert into publics
+values (4,'Retraité');
+insert into publics
+values (5,'Autre');
+
+insert into categories
+values (1,'Développement WEB', null);
+insert into categories
+values (2, 'Analyse', null);
+insert into categories
+values (3, 'Programmation', null);
+
+insert into categories
+values (4, 'PHP - JavaScript', 1);
+insert into categories
+values (5, 'HTML/CSS', 1);
+insert into categories
+values (6, 'MySQL', 1);
+insert into categories
+values (7, 'UML', 2);
+insert into categories
+values (8, 'Merise', 2);
+insert into categories
+values (9, 'Python', 3);
+insert into categories
+values (10, 'Linux', 3);
+insert into categories
+values (11, 'Visual  Basic', 3);
+insert into categories
+values (12, 'C#', 3);
+
+insert into niveaux
+values (1,'Débutant');
+insert into niveaux
+values (2,'Intermédiaire');
+insert into niveaux
+values (3,'Expert');
+
+insert into categories
+values (13,'Gestion de serveur', null);
+insert into categories
+values (14, 'Linux', 13);
+insert into categories
+values (15, 'Windows', 13);
+
+insert into chapitres
+values (1, 'I. Les bases de HTML5', 'Ce chapître va vous permettre de créer et d\'organiser vos pages web.');
+insert into chapitres
+values (2, 'II. Les joies de la mise en forme avec CSS', 'Maintenant vous allez voir comment rendre vos pages plus belles et attractives');
+insert into chapitres
+values (3, 'III. Mise en page du site', 'Ensuite vous allez voir comment bien agencer votre site et le rendre agréable pour l\'utilisateur.');
+insert into chapitres
+values (4, 'IV. Fonctionnalités evoluées', 'Enfin vous verrez comment ajouter des médias et interagir avec les internautes.');
+
+insert into chapitres
+values (5, 'I. Les bases en UML', 'Dans ce chapître vous allez voir les bases de l\'UML');
+insert into chapitres
+values (6, 'II. Identifier le contexte et les besoins principaux des utilisateurs', 'Maintenant vous allez devoir analyser l\'architecture de la société');
+insert into chapitres
+values (7, 'III. Préciser les cas d\'utilisation', '');
+insert into chapitres
+values (8, 'IV. Décrire le scénarion des cas d\'utilisation', '');
+
+*************************************************************************************
+
+insert into details
+values (1, 'premiers pas', '
+				1. Comment fait-on pour créer des sites web ?<br>
+				2. Votre première page web en HTML<br>
+				3. Créer des liens<br>
+				4. Les images<br>');
+
+insert into details
+values (2, 'mise en forme', '
+				1. Mettre en place le CSS<br>
+				2. Formatage du texte<br>
+				3. La couleur et le fond<br>
+				4. Les bordures et les ombres<br>
+				5. Création d\'apparences dynamiques<br>');
+
+insert into details
+values (3, 'Structurer le site', '
+				1. Structurer sa page<br>
+				2. Le modèle des boîtes<br>
+				3. Le positionnement en CSS<br>
+				4. TP: création pas à pas<br>');
+
+insert into details
+values (4, 'fonctionnalités', '<p>
+				1. Les tableaux<br>
+				2. Les formulaires<br>
+				3. La vidéo et l\'audio<br>
+				4. Mise en page adaptive avec les Media Queries<br>
+				5. Aller plus loin</p><br>');
+
+
+*************************************************************************************
+
+insert into details
+values (5, 'UML présentation', '<p>
+				1. UML, c\’est quoi ?<br>
+				2. Les différents types de diagrammes<br>
+				3. Quelle démarche suivre ?<br>
+			</p>');
+
+insert into details
+values (6, 'UML contexte', '<p>
+				1. La démarche<br>
+				2. Étape 1 : Définir le contexte du futur logiciel<br>
+				3. Étape 2 : Décomposer le système en parties, dit « package »<br>
+				4. Étape 3 : Les cas d’utilisation<br>
+			</p>');
+insert into details
+values (7, 'UML précision', '<p>
+				1. Les relations stéréotypées<br>
+				2. Les cas d’utilisation internes<br>
+			</p>');
+insert into details
+values (8, 'UML scénario', '<p>
+				1. La description textuelle d\’un cas d’utilisation<br>
+				2. Le diagramme d’activité<br>
+				3. UML, un outil de communication avec le client<br>
+			</p>');
+-------------------------------------------------------------------------------
